@@ -1,0 +1,155 @@
+/*banner动画*/
+.banner__content__right__h2
+{
+    transition: all 1s;
+}
+.banner__content__right__h2_init
+{
+    opacity: 0;
+}
+.banner__content__right__h2_done
+{
+    transform: scale(1);  opacity: 1;
+}
+
+/*第一屏动画*/
+
+.screen-1__heading
+{
+    transition: all 1s;
+}
+.screen-1__heading_play_init
+{
+    transform: translate(0,100%);  opacity: 0;
+}
+.screen-1__heading_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}
+
+
+/*第二屏动画*/
+.screen-2__heading
+{
+    transition: all 1s;
+}
+.screen-2_right,
+.screen-2__work__date
+{
+    transition: all 1s .5s;
+}
+.screen-2__heading_play_init
+{
+    transform: translate(0,-100%);  opacity: 0;
+}
+
+.screen-2__work__date_play_init
+{
+    transform: translate(-100%,0);  opacity: 0;
+}
+.screen-2_right_play_init
+{
+    transform: translate(100%,0);  opacity: 0;
+}
+.screen-2__work__date_play_done,
+.screen-2_right_play_done,
+.screen-2__heading_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}
+
+
+/*第三屏动画*/
+.screen-3__footer,
+.screen-3__content__left,
+.screen-3__content__right,
+.screen-3__heading
+{
+    transition: all 1s;
+}
+.screen-3__content__progress__bar
+{
+    transition: all 1.5s .5s;
+}
+.screen-3__heading_play_init
+{
+    transform: translate(0,-100%);  opacity: 0;
+}
+.screen-3__heading_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}
+.screen-3__content__left_play_init
+{
+    transform: translate(-100%,0);  opacity: 0;
+}
+.screen-3__content__right_play_init
+{
+    transform: translate(100%,0);  opacity: 0;
+}
+.screen-3__footer_play_init
+{
+    transform: translate(0,100%);  opacity: 0;
+}
+.screen-3__footer_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}
+.screen-3__content__left_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}
+.screen-3__content__right_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}
+.screen-3__content__progress__bar_1_play_init,
+.screen-3__content__progress__bar_2_play_init,
+.screen-3__content__progress__bar_3_play_init,
+.screen-3__content__progress__bar_4_play_init,
+.screen-3__content__progress__bar_5_play_init,
+.screen-3__content__progress__bar_6_play_init
+{
+    width: 0;  opacity: 0;
+}
+.screen-3__content__progress__bar_1_play_done
+{
+    width: 85%;  opacity: 1;
+}
+
+.screen-3__content__progress__bar_2_play_done
+{
+    width: 80%;  opacity: 1;
+}
+.screen-3__content__progress__bar_3_play_done
+{
+    width: 75%;  opacity: 1;
+}
+.screen-3__content__progress__bar_4_play_done
+{
+    width: 85%;  opacity: 1;
+}
+.screen-3__content__progress__bar_5_play_done
+{
+    width: 85%;  opacity: 1;
+}
+.screen-3__content__progress__bar_6_play_done
+{
+    width: 65%;  opacity: 1;
+}
+
+
+
+/*第四屏动画*/
+.screen-4__heading
+{
+    transition: all 1s;
+}
+.screen-4__heading_play_init
+{
+    transform: translate(0,-100%);  opacity: 0;
+}
+.screen-4__heading_play_done
+{
+    transform: translate(0,0);  opacity: 1;
+}

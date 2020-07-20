@@ -1,0 +1,372 @@
+*
+{
+    font-family: '微软雅黑';  margin: 0;  padding: 0;
+}
+a
+{
+    text-decoration: none;/*去掉下划线*/
+}
+
+
+/*banner部分*/
+.banner
+{
+    position: relative; height: 463px;  background: url(../img/banner.jpg) center no-repeat;background-size: cover;
+}
+.banner__dot
+{
+    height: 455px; padding: 4px 0;  background: url(../img/banner_dot.png) repeat;
+}
+.banner__content
+{
+    position: absolute;  top: 50%;left: 50%;width: 1200px; height: 352px;  margin-top: -176px;margin-left: -572px;
+}
+.banner__content__left
+{
+    float: left;  width: 350px;  height: 350px;  border: 9px solid #cacaca; background: url(../img/banner_content_left.jpg) left center no-repeat;background-size: cover;
+    ;
+}
+.banner__content__right
+{
+    float: right;  width: 760px;  height: 367px; margin-top: 30px; margin-left: 20px;
+}
+.banner__content__right h1,
+.banner__content__right__h2,
+.banner__content__right h6
+{
+    font-family: 'Overlock', cursive;
+}
+.banner__content__right h1
+{
+    font-size: 2.5em;  margin: .5em 0; color: #fff;
+}
+.banner__content__right__h2
+{
+    font-size: 18px;  line-height: 32px;  position: relative; width: 78px; height: 32px;margin-top: -30px; text-align: center;background-color: #f3e000;
+}
+.banner__content__right__h2::before
+{
+    position: absolute;top: 30px;left: 7px;width: 0;height: 0;content: '';border: 10px solid;border-color: #f3e000 transparent transparent transparent;
+}
+.banner__content__right h6
+{
+    font-size: 1.5em; margin: .5em 0; color: #c7c7c7;
+}
+.banner__content__right dl:first-of-type
+{
+    border-top: 1px solid #afafaf;
+}
+.banner__content__right dl
+{
+    position: relative;display: block;height: 30px;margin: 20px 0;
+}
+.banner__content__right dl dt,
+.banner__content__right dl dd
+{
+    font-size: 1.4em; position: absolute;padding-top: 10px; color: #fff;
+}
+.banner__content__right dl dt
+{
+    font-weight: bold; left: 10px;
+}
+.banner__content__right dl dd
+{
+    left: 160px;
+}
+
+
+/*头部css样式设置*/
+.header
+{
+    transition: all 1s; background-color: #008b8b;
+}
+.header__wrap
+{
+    position: relative;  width: 1200px;  height: 80px;margin: 0 auto;
+}
+.header__wrap__nav
+{
+    position: absolute;  top: 50%;left: 50%;width: 1100px;height: 38px;margin-top: -19px;margin-left: -550px;
+}
+.header_wrap__nav-item
+{
+    font-size: 1.5em; line-height: 38px;  position: relative; display: block;  float: left; height: 38px; margin-left: 130px;color: #fff;
+}
+.header_status_back
+{
+    position: fixed;  z-index: 3;  top: 0; right: 0;left: 0;background-color: rgb(0, 0, 0,.5);
+}
+.header_status_back .header_wrap__nav-item
+{
+    color: #f4f4f5;
+}
+.header_wrap__nav-item:hover
+{
+    color: #f01400;
+}
+.header_wrap__nav-item_status_active
+{
+    color: #f01400;
+}
+.header_status_back .header_wrap__nav-item_status_active
+{
+    color: #f01400;
+}
+.header_nav-tip
+{
+    position: absolute;  bottom: 0;  width: 90px;  height: 2px;  margin-left: 133px;  transition: all .5s;  background-color: #f01400;
+}
+
+
+/*第一屏css样式设置*/
+.screen-1
+{
+    position: relative;  overflow: hidden; height: 800px; background-color: #fff;
+}
+.screen-1__h3
+{
+    line-height: 76px;  position: absolute; top: 70px; left: 50%;  width: 1170px;  height: 76px;  margin-left: -585px;  padding-bottom: 15px; text-align: center;border-bottom: 4px double rgba(247, 197, 106, .35);
+}
+.screen-1__heading
+{
+    font-size: 46px;  font-weight: normal;  color: #008b8b;
+}
+.screen-1__content
+{
+    position: absolute;top: 235px;left: 50%;width: 1170px;height: 480px;margin-left: -585px;
+}
+.screen-1__content__left,
+.screen-1__content__right
+{
+    font-size: 16px;  line-height: 1.8em;  color: #999;
+}
+.screen-1__content__left
+{
+    float: left;width: 760px;height: 270px;
+}
+.screen-1__content__right
+{
+    position: relative;  float: right;  width: 295px;height: 347px;border: 4px double #008b8b;
+}
+.screen-1__content__right ul
+{
+    position: absolute;  top: 20px;  left: 70px;  display: block;list-style: none;
+}
+.screen-1__content__right ul h5
+{
+    font-size: 28px;  margin-bottom: 15px; color: #008b8b;
+}
+.screen-1__content__right ul li
+{
+    line-height: 2.5em;
+}
+@keyframes ar
+{
+    from
+    {
+        left: -30px;
+    }
+    to
+    {
+        left: -20px;
+    }
+}
+.screen-1__content__right ul li .arrow
+{
+    font-family: Arial;  font-size: 22px;  position: absolute; top: 42px; left: 0;  animation: ar 1s ease-out infinite;
+}
+.screen-1__content__right ul li .arrow_2
+{
+    top: 83px;
+}
+.screen-1__content__right ul li .arrow_3
+{
+    top: 123px;
+}
+.screen-1__content__right ul li .arrow_4
+{
+    top: 163px;
+}
+.screen-1__content__right ul li .arrow_5
+{
+    top: 203px;
+}
+
+
+/*第二屏css样式设置*/
+.screen-2
+{
+    position: relative;  overflow: hidden; height: 800px;  background-color: #000;
+}
+.screen-2__h3
+{
+    line-height: 76px;  position: absolute; top: 70px; left: 50%;  width: 1170px;  height: 76px;  margin-left: -585px;  padding-bottom: 15px; text-align: center;border-bottom: 4px double rgba(247, 197, 106, .35);
+}
+.screen-2__heading
+{
+    font-size: 46px;  font-weight: normal;  color: #008b8b;
+}
+.screen-2__content
+{
+    position: absolute;  top: 215px;  left: 50%;  width: 1170px;  height: 480px;  margin-left: -593px;
+}
+.screen-2__timeLine
+{
+    width: 1080px;  height: 500px;margin-left: 565px;  padding-left: 50px;  list-style: none;  border-left: 1px solid #fff;
+}
+.screen-2__timeLine .screen-2__work
+{
+    position: relative;  margin-bottom: 10px;padding-top: 22px;
+}
+.screen-2__timeLine h5
+{
+    font-size: 1.5em;  color: #f7e612;
+}
+
+.screen-2__timeLine p
+{
+    font-size: 1em;  line-height: 1.8em;  display: inline-block;  margin-top: 10px; color: #999;
+}
+
+.screen-2__timeLine .screen-2__work__date
+{
+    font-size: 22px;  line-height: 20px;  position: absolute;  top: 30px; left: -244px;color: #999;
+}
+.screen-2__timeLine .circle
+{
+    position: absolute;   top: 26px;   left: -60px;display: block;  width: 10px;  height: 10px;   border: 5px solid #fff;  border-radius: 50%;background: #008b8b;
+}
+
+
+
+/*第三屏css样式设置*/
+.screen-3
+{
+    position: relative;  overflow: hidden; height: 800px;  background-color: #fff;
+}
+.screen-3__h3
+{
+    line-height: 76px;  position: absolute; top: 70px; left: 50%;  width: 1170px;  height: 76px;  margin-left: -585px;  padding-bottom: 15px; text-align: center;border-bottom: 4px double rgba(247, 197, 106, .35);
+}
+.screen-3__heading
+{
+    font-size: 46px;  font-weight: normal;  color: #008b8b;
+}
+.screen-3__content
+{
+    position: absolute;  top: 215px;  left: 50%;  width: 1170px;height: 480px; margin-left: -593px;
+}
+.screen-3__content__left
+{
+    float: left;margin-left: 50px;
+}
+.screen-3__content__right
+{
+    float: right;margin-right: 50px;
+}
+.screen-3__content h6
+{
+    font-size: 15px;  margin-bottom: 15px;  color: #999;
+}
+.screen-3__content h6 span
+{
+    display: block;  float: right;
+}
+.screen-3__content .screen-3__content__progress .screen-3__content__progress__bar
+{
+    height: 100%; border-radius: 4px;  background-color: #adb81d;
+}
+.screen-3__content .screen-3__content__progress
+{
+    width: 458px;  height: 10px; margin-bottom: 20px;  border-radius: 4px; background-color: #47430a;
+}
+.screen-3__content .screen-3__content__progress .shadow
+{
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);  background-size: 40px 40px;
+}
+@keyframes shadow
+{
+    from
+    {
+        background-position: 40px 0;
+    }to
+    {
+        background-position: 0 0;
+    }
+}
+.screen-3__content .screen-3__content__progress .active
+{
+    animation: shadow 2s linear infinite;
+}
+.screen-3__content .screen-3__footer
+{
+    font-size: 22px;  line-height: 2.8em;  margin-top: 290px;  text-align: center; color: #999;
+}
+
+/*第四屏css样式设置*/
+.screen-4
+{
+    position: relative;  overflow: hidden; height: 800px;  background-color: #000;
+}
+.screen-4__h3
+{
+    line-height: 76px;  position: absolute; top: 70px; left: 50%;  width: 1170px;  height: 76px;  margin-left: -585px;  padding-bottom: 15px; text-align: center;
+}
+.screen-4__heading
+{
+    font-size: 46px;  font-weight: normal;  color: #008b8b;
+}
+.screen-4__content
+{
+    position: absolute;  top: 215px;  left: 50%;  width: 1170px;height: 480px; margin-left: -593px;
+}
+.screen-4__content_1
+{
+    font-size: 30px;  line-height: 80px;  position: absolute;top: 20px;  left: 50%; width: 580px;  height: 80px;  margin-bottom: 20px;   margin-left: -290px; text-align: center; color: #fff; border-radius: 100px; background-color: #008b8b;
+}
+.screen-4__content_2
+{
+    font-size: 30px;  line-height: 80px;  position: absolute;top: 150px;  left: 50%; width: 580px;  height: 80px;   margin-left: -290px; text-align: center; color: #fff; border-radius: 100px; background-color: #008b8b;
+}
+@keyframes footer
+{
+    from
+    {
+        bottom: 120px;
+    }to
+    {
+        bottom: 150px;
+    }
+}
+.screen-4__footer
+{
+    position: absolute;  bottom: 0;  left: 50%;  width: 150px;  height: 150px;  margin-left: -75px;  animation: footer 1s ease-in-out infinite; background: url(../img/footer.gif);
+}
+
+/*侧边栏*/
+.outline
+{
+    position: fixed;  z-index: 3;right: 0;bottom: 400px;padding: 5px 10px;
+
+transition: all 1s;
+
+transform: translate(100%,0);
+
+opacity: 0; background-color: #fff;box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+}
+.outline_status_in
+{
+    transform: translate(0,0);  opacity: 1;
+}
+.outline__nav-item
+{
+    line-height: 30px;  display: block;  width: 40px;  height: 30px; padding: 5px 0; text-align: center; color: #93999f; border-bottom: 1px solid #eee; background-color: #fff;
+}
+.outline__nav-item:last-child
+{
+    border: none;
+}
+.outline__nav-item_status_active
+{
+    color: #f01400;
+}
